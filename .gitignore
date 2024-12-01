@@ -142,3 +142,4 @@ $RECYCLE.BIN/
 *.lnk
 
 /adventofcode2024-kotlin/src/main/resources/input_day_*.txt
+/adventofcode2024-kotlin/src/test/resources/test_input_day_*.txt
