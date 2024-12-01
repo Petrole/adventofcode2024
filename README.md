@@ -9,8 +9,8 @@ Advent of Code is an Advent calendar of small programming puzzles for a variety 
 levels that can be solved in any programming language you like. 
 
 ## Requirements  
-- [Kotlin](https://kotlinlang.org/) 
-- [JDK 21+](https://adoptium.net/) 
+- [Kotlin 2.1.0](https://kotlinlang.org/) 
+- [JDK 17](https://adoptium.net/) 
 - [Maven 3.6.3+](https://maven.apache.org/)
 
 ## How to run that ?
