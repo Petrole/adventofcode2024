@@ -1,0 +1,1 @@
+My inputs go into this folder, but you can't share the input under the advent of code license.

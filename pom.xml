@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/maven-v4_0_0.xsd">
+
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>com.github.petrole</groupId>
+    <artifactId>adventofcode2024</artifactId>
+    <version>1.0</version>
+    <packaging>pom</packaging>
+
+    <name>adventofcode2024-parent</name>
+
+    <properties>
+        <!-- Languages -->
+        <java.version>17</java.version>
+        <jvmTarget.version>17</jvmTarget.version>
+        <maven.compiler.source>17</maven.compiler.source>
+        <maven.compiler.target>17</maven.compiler.target>
+
+        <!-- Encoding -->
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+
+        <!-- Maven plugins -->
+        <maven-compiler-plugin.version>3.8.1</maven-compiler-plugin.version>
+        <maven-source-plugin.version>3.2.1</maven-source-plugin.version>
+        <maven-surefire-plugin.version>3.5.2</maven-surefire-plugin.version>
+    </properties>
+
+    <profiles>
+        <profile>
+            <id>aoc-kotlin</id>
+            <modules>
+                <module>adventofcode2024-kotlin</module>
+            </modules>
+        </profile>
+    </profiles>
+</project>
