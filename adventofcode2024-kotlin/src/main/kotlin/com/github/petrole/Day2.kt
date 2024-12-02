@@ -2,7 +2,7 @@ package com.github.petrole
 
 
 /**
- * Problem description @ [https://adventofcode.com/2024/day/1](https://adventofcode.com/2024/day/1)
+ * Problem description @ [https://adventofcode.com/2024/day/1](https://adventofcode.com/2024/day/2)
  */
 class Day2(
     /**
@@ -39,7 +39,6 @@ class Day2(
     }
 
     override fun solvePart2(): String {
-
         return inputLines
             .map { line -> line.trim().split("\\s+".toRegex()).map { it.toInt() } }
             .filter { isValidList(it) || canBeValidByRemovingOneLevel(it) }.size.toString()
