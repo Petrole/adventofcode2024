@@ -2,5 +2,5 @@ package com.github.petrole
 
 
 fun main() {
-    AdventPuzzleSolver.solveDay(1)
+    AdventPuzzleSolver.solveDay(2)
 }
