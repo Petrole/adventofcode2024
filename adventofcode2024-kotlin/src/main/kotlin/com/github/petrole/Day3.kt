@@ -11,7 +11,7 @@ class Day3(
     var inputLines: List<String>
 ) : AdventPuzzle {
 
-    override val puzzleName = "Day 3: Mull It Over "
+    override val puzzleName = "Day 3: Mull It Over"
 
     override fun solvePart1(): String {
         var total = 0
